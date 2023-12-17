@@ -1,10 +1,10 @@
 import React from "react";
-import { ChooseIcon } from "./Common/Icons";
+import { ChooseData } from "./Common/Helper";
 
 const ChooseNamo = () => {
   return (
     <>
-      <div className="py-20">
+      <div className="py-20"id="testimonial">
         <div className="container">
           <div className="flex w-full flex-wrap">
             <div className="sm:w-1/2">
@@ -22,60 +22,27 @@ const ChooseNamo = () => {
             </div>
           </div>
           <div className="flex w-full flex-wrap mt-12 ">
-            <div className="sm:w-1/2 p-2">
-              <div className="rounded-xl h-full border border-gray-200 bg-[#fff] p-4 hover:shadow-lg duration-300 cursor-pointer flex items-start gap-5">
-                <div className=" rounded-[150px] bg-[#D9E9DB] p-2 lg:p-4 inline-block">
-                  <ChooseIcon />
-                </div>
-                <div>
-                  <p className=" mb-0 font-medium md:text-xl">Convenience</p>
-                  <p className="mb-0 mt-2 text-grey lg:text-base text-sm">
-                    Book services at your fingertips through our user-friendly
-                    app. We bring the experts to you, saving you time and
-                    effort.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="sm:w-1/2 p-2">
-              <div className="rounded-xl h-full border border-gray-200 bg-[#fff] p-4 hover:shadow-lg duration-300 cursor-pointer flex items-start gap-5">
-                <div className=" rounded-[150px] bg-[#D9E9DB] p-2 lg:p-4 inline-block">
-                  <ChooseIcon />
-                </div>
-                <div>
-                  <p className=" mb-0 font-medium md:text-xl">Quality Assurance</p>
-                  <p className="mb-0 mt-2 text-grey lg:text-base text-sm">
-                  Our team of skilled professionals is committed to delivering top-notch services with a focus on quality and customer satisfaction.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="sm:w-1/2 p-2">
-              <div className="rounded-xl h-full border border-gray-200 bg-[#fff] p-4 hover:shadow-lg duration-300 cursor-pointer flex items-start gap-5">
-                <div className=" rounded-[150px] bg-[#D9E9DB] p-2 lg:p-4 inline-block">
-                  <ChooseIcon />
-                </div>
-                <div>
-                  <p className=" mb-0 font-medium md:text-xl">Transparent Pricing</p>
-                  <p className="mb-0 mt-2 text-grey lg:text-base text-sm">
-                  No hidden costs. Our transparent pricing ensures that you know exactly what to expect, making budgeting simple and stress-free.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="sm:w-1/2 p-2">
-              <div className="rounded-xl h-full border border-gray-200 bg-[#fff] p-4 hover:shadow-lg duration-300 cursor-pointer flex items-start gap-5">
-                <div className=" rounded-[150px] bg-[#D9E9DB] p-2 lg:p-4 inline-block">
-                  <ChooseIcon />
-                </div>
-                <div>
-                  <p className=" mb-0 font-medium md:text-xl">24/7 Support</p>
-                  <p className="mb-0 mt-2 text-grey lg:text-base text-sm">
-                  Need assistance or have a question? Our dedicated customer support team is available around the clock to address your concerns.
-                  </p>
-                </div>
-              </div>
-            </div>
+            {ChooseData.map((value, i) => {
+              return (
+                <>
+                  <div className="sm:w-1/2 p-2">
+                    <div className="rounded-xl h-full border border-gray-200 bg-[#fff] p-4 hover:shadow-lg duration-300 cursor-pointer flex items-start gap-5">
+                      <div className=" rounded-[150px] bg-[#D9E9DB] p-2 lg:p-4 inline-block">
+                       {value.icon}
+                      </div>
+                      <div>
+                        <p className=" mb-0 font-medium md:text-xl">
+                         {value.para}
+                        </p>
+                        <p className="mb-0 mt-2 text-grey lg:text-base text-sm">
+                         {value.para2}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              );
+            })}
           </div>
         </div>
       </div>

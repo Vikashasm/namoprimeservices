@@ -16,19 +16,19 @@ const Footer = () => {
               Vestibulum eu enim nibh. Aliquam tincidunt leo non massa facilisis
             </p>
             <div className="flex flex-wrap items-center gap-4 md:gap-8 mt-4 justify-center">
-              <a href="#home" className="text-white hover:text-primary duration-300">
+              <a href="#home" className="text-white hover:text-primary duration-300" >
                 Home
               </a>
-              <a href="#about" className="text-white hover:text-primary duration-300">
+              <a href="#about" className="text-white hover:text-primary duration-300" >
               About Us
               </a>
-              <a href="service" className="text-white hover:text-primary duration-300">
+              <a href="service" className="text-white hover:text-primary duration-300" >
               Our Services
               </a>
-              <a href="#testimonals" className="text-white hover:text-primary duration-300">
+              <a href="#testimonals" className="text-white hover:text-primary duration-300" >
               Testimonials 
               </a>
-              <a href="#contact" className="text-white hover:text-primary duration-300">
+              <a href="#contact" className="text-white hover:text-primary duration-300" >
               Contact Us
               </a>
             </div>

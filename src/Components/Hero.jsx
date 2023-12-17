@@ -4,7 +4,7 @@ import shadow from "../assets/png/shadow.png";
 const Hero = () => {
   return (
     <>
-      <div className="lg:flex-grow flex items-center mt-14 lg:mt-0 relative z-40 ">
+      <div className="lg:flex-grow flex items-center mt-14 lg:mt-0 relative z-40" id="home">
         <div className="container">
           <div className="w-full md:flex  ">
             <div className="md:w-1/2 text-center md:text-start sm:mt-20 lg:mt-28">

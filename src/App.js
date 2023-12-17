@@ -1,6 +1,6 @@
 import "./App.css";
 import MainPage from "./View/MainPage";
-import logoimg from "../src/assets/png/logo.png"
+import logoimg from "../src/assets/png/logo.png";
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import { Route, Routes } from "react-router-dom";
@@ -41,12 +41,17 @@ function App() {
             className={`
           } bg-black fixed h-screen right-0 top-0 w-full z-50 flex justify-center items-center `}
           >
-            <img className="w-[200px] md:w-[400px]" src={logoimg} alt="logoImg" />
+            <img
+              className="w-[200px] md:w-[400px]"
+              src={logoimg}
+              alt="logoImg"
+            />
           </div>
         )}
-       <Routes>
-        <Route path="/" element={<MainPage />} />
-       </Routes>
+
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+        </Routes>
       </div>
     </>
   );

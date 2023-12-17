@@ -3,7 +3,7 @@ import unique from "../assets/png/unique.png";
 const UniqueSelling = () => {
   return (
     <>
-      <div className="container mt-20 md:mb-40 mb-10">
+      <div className="container mt-20 md:mb-40 mb-10" id="about">
         <div className="md:flex items-center w-full ">
           <div className="w-2/3 mx-auto md:w-1/2">
             <img className="sm:pr-10" src={unique} alt="unique" />

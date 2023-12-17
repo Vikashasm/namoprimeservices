@@ -8,30 +8,30 @@ const NavBar = () => {
     <>
       <nav className="container">
         <div className="flex justify-between items-center py-[15px]">
-          <Link to="/" >
-          <img className="cursor-pointer" src={Logo} alt="logo" />
+          <Link to="/">
+            <img className="cursor-pointer" src={Logo} alt="logo" />
           </Link>
           <div className=" hidden lg:block">
             <ul className="flex gap-7 lg:px-6">
-              <li className=" whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
-                Home
+              <li className="whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
+                <a href="#home">Home</a>
               </li>
-              <li className=" whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
-                About Us
+              <li className="whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
+                <a href="#about"> About Us </a>
               </li>
-              <li className=" whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
-                Our Services
+              <li className="whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
+                <a href="#service"> Our Services </a>
               </li>
-              <li className=" whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
-                Testimonials
+              <li className="whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
+                <a href="#testimonial"> Testimonials</a>
               </li>
-              <li className=" whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
-                Contact Us
+              <li className="whitespace-nowrap cursor-pointer hover:text-primary text-black duration-300 ">
+                <a href="#contact"> Contact Us </a>
               </li>
             </ul>
           </div>
           <div className="lg:flex hidden  ">
-            <button className="py-4 px-8 bg-primary rounded-[60px] text-white  hover:bg-black  duration-300 ">
+            <button className="py-4 px-8 duration-300 bg-primary rounded-[60px] text-white  hover:bg-black   ">
               Book Now
             </button>
           </div>

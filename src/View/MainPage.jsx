@@ -9,10 +9,12 @@ import Clients from "../Components/Clients";
 import Footer from "../Components/Common/Footer";
 import ContactUs from "../Components/ContactUs";
 import Blog from "../Components/Blog";
+import Backtotop from "../Components/Common/BackToTop";
 
 const MainPage = () => {
   return <>
   <div className="">
+  <Backtotop />
     <div className="lg:h-screen flex items-center flex-col">
     <NavBar />
     <Hero />
@@ -23,7 +25,7 @@ const MainPage = () => {
    <ChooseNamo />
    <Clients />
    <Blog />
-   {/* <ContactUs /> */}
+   <ContactUs />
    <Footer />
   </div>
   
