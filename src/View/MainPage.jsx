@@ -13,7 +13,7 @@ import Backtotop from "../Components/Common/BackToTop";
 
 const MainPage = () => {
   return <>
-  <div className="">
+  <div className="overflow-hidden">
   <Backtotop />
     <div className="lg:h-screen flex items-center flex-col">
     <NavBar />
@@ -23,7 +23,7 @@ const MainPage = () => {
     <UniqueSelling />
     <Service />
    <ChooseNamo />
-   <Clients />
+<Clients />
    <Blog />
    <ContactUs />
    <Footer />

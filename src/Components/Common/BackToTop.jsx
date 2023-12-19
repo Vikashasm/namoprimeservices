@@ -26,7 +26,7 @@ const Backtotop = () => {
     <>
       {scrollPosition > 200 ? (
         <div
-          className="fixed  bottom-10 right-2 cursor-pointer z_index pe-3"
+          className="fixed  bottom-10 right-2 cursor-pointer z-50 pe-3"
           onClick={() => scrollToTop()}>
        <BackToTopArrow />
         </div>

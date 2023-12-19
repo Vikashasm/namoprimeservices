@@ -12,7 +12,9 @@ const Service = () => {
             {ServiceData.map((value, i) => {
               return (
                 <>
-                  <div className="sm:w-full md:w-1/2 lg:w-1/3 text-center  p-3 ">
+                  <div className="sm:w-full md:w-1/2 lg:w-1/3 text-center  p-3 " data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="200">
                     <div className="rounded-xl h-full border border-gray-200 bg-[#F1F1F1] pt-6 px-6 pb-14 hover:shadow-lg duration-300 cursor-pointer ">
                       <div className=" rounded-[150px] bg-[#D9E9DB] p-3 lg:p-[27px] inline-block">
                         {value.icon}

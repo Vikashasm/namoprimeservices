@@ -25,7 +25,9 @@ const ChooseNamo = () => {
             {ChooseData.map((value, i) => {
               return (
                 <>
-                  <div className="sm:w-1/2 p-2">
+                  <div className="sm:w-1/2 p-2" data-aos="fade-up"
+                data-aos-duration="1500"
+                data-aos-delay="200">
                     <div className="rounded-xl h-full border border-gray-200 bg-[#fff] p-4 hover:shadow-lg duration-300 cursor-pointer flex items-start gap-5">
                       <div className=" rounded-[150px] bg-[#D9E9DB] p-2 lg:p-4 inline-block">
                        {value.icon}

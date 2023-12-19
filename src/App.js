@@ -3,6 +3,7 @@ import MainPage from "./View/MainPage";
 import logoimg from "../src/assets/png/logo.png";
 import { useEffect, useState } from "react";
 import Aos from "aos";
+import "aos/dist/aos.css";
 import { Route, Routes } from "react-router-dom";
 function App() {
   const [preloaderActive, setpreloaderActive] = useState(false);

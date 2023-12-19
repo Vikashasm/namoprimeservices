@@ -5,10 +5,10 @@ const UniqueSelling = () => {
     <>
       <div className="container mt-20 md:mb-40 mb-10" id="about">
         <div className="md:flex items-center w-full ">
-          <div className="w-2/3 mx-auto md:w-1/2">
+          <div className="w-2/3 mx-auto md:w-1/2"data-aos="fade-right" data-aos-duration="600">
             <img className="sm:pr-10" src={unique} alt="unique" />
           </div>
-          <div className="md:w-1/2 md:text-start text-center mt-7 md:mt-0">
+          <div className="md:w-1/2 md:text-start text-center mt-7 md:mt-0"data-aos="fade-left" data-aos-duration="600">
             <h2 className="text-xl sm:text-[30px] xl:text-2xl font-medium text-black mb-0">
               Unique Selling <span className="text-primary">Proposition</span>
             </h2>

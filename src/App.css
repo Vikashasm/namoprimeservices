@@ -43,3 +43,7 @@ margin-right: 20px !important;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+.bg_contact{
+    background-image: url("./assets/png/contact_bg.png");
+    background-repeat: no-repeat;
+}

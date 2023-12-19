@@ -6,7 +6,7 @@ const Experience = () => {
     <>
       <section className=" translate-y-28  ">
         <div className="container">
-          <div className="bg-primary rounded-[16px] ">
+          <div className="bg_contact rounded-[16px] ">
             <div className="max-w-[576px] mx-auto text-center py-10 px-3 sm:py-16  md:py-20 ">
               <h2 className="text-lg md:text-[32px] lg:text-2xl font-medium text-[#fff] md:leading-[52px] ">
                 Enhance Your Experience with Our Mobile App

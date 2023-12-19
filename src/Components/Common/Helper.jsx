@@ -1,4 +1,6 @@
 import leslie from "../../assets/png/leslie.png";
+import jenny from "../../assets/png/jenny.png";
+import jacob from "../../assets/png/jacob.png";
 import {
   ChooseIcon,
   CleaningIcon,
@@ -20,24 +22,24 @@ export const CLientSlides = [
     icon2: <StarIcon />,
   },
   {
-    img: leslie,
-    para: " Leslie Alexander",
+    img: jenny,
+    para: " Jenny Wlson",
     icon: <DoubleIcon />,
     para2:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean molestie cursus sem non eleifend. Praesent vitae commodo nunc, at suscipit nibh. Aliquam ut lorem quis lectus varius placerat eu non felis.",
     icon2: <StarIcon />,
   },
   {
-    img: leslie,
-    para: " Leslie Alexander",
+    img: jacob,
+    para: " Jacob Jones",
     icon: <DoubleIcon />,
     para2:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean molestie cursus sem non eleifend. Praesent vitae commodo nunc, at suscipit nibh. Aliquam ut lorem quis lectus varius placerat eu non felis.",
     icon2: <StarIcon />,
   },
   {
-    img: leslie,
-    para: " Leslie Alexander",
+    img: jenny,
+    para: " Jenny Wlson",
     icon: <DoubleIcon />,
     para2:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean molestie cursus sem non eleifend. Praesent vitae commodo nunc, at suscipit nibh. Aliquam ut lorem quis lectus varius placerat eu non felis.",

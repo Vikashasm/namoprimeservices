@@ -4,11 +4,13 @@ import blogs from "../assets/png/blogs.png";
 const Blog = () => {
   return (
     <>
-      <div className="py-40">
+      <div className=" py-10 lg:py-36">
         <div className="container">
           <h2 className="font-medium text-xl min-[530px]:text-[30px] xl:text-2xl text-center">Our Blog</h2>
           <div className="xl:flex w-full items-center gap-3 mt-3 min-[530px]:mt-12">
-            <div className="xl:w-1/2 text-center xl:text-start ">
+            <div className="xl:w-1/2 text-center xl:text-start  "data-aos="fade-right"
+                data-aos-duration="1500"
+                data-aos-delay="200">
               <img className="mx-auto xl:text-start" src={blog} alt="blog" />
               <p className="text-primary text-sm pt-8 mb-0">27 Jan 2023</p>
               <p className="mt-1 mb-0 font-medium min-[530px]:text-xl">
@@ -24,7 +26,9 @@ const Blog = () => {
                 Read More
               </button>
             </div>
-            <div className="min-[530px]:ps-3 xl:w-1/2 mt-20 xl:mt-0">
+            <div className="min-[530px]:ps-3 xl:w-1/2 mt-20 xl:mt-0 "data-aos="fade-left"
+                data-aos-duration="1500"
+                data-aos-delay="200">
               <div className="w-full min-[530px]:flex">
                 <div className="min-[530px]:w-1/2">
                   <img className="mx-auto min-[530px]:mx-0" src={blogs} alt="blog" />
