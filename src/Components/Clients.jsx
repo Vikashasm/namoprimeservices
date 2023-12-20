@@ -41,7 +41,7 @@ const Clients = () => {
   return (
     <>
       <section className=" pt-xl-5 mt-xl-5 bg-[#F1F1F1]">
-        <div className="container  pt-sm-5 pb-sm-3 py-20 ">
+        <div className="container  pt-sm-5 pb-sm-3 py-10 lg:py-20 ">
           <h2 className="text-xl sm:text-[30px] xl:text-2xl font-medium text-black text-center ">
             Our
             <span className="text-primary">Clients</span> Say

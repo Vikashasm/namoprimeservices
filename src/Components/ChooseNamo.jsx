@@ -4,7 +4,7 @@ import { ChooseData } from "./Common/Helper";
 const ChooseNamo = () => {
   return (
     <>
-      <div className="py-20"id="testimonial">
+      <div className=" py-10 lg:py-20"id="testimonial">
         <div className="container">
           <div className="flex w-full flex-wrap">
             <div className="sm:w-1/2">
