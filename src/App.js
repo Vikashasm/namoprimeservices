@@ -1,6 +1,6 @@
 import "./App.css";
 import MainPage from "./View/MainPage";
-import logoimg from "../src/assets/png/logo.png";
+import logoimg from "../src/assets/webp/logo.webp";
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -28,19 +28,19 @@ function App() {
         <div
           className={`${
             preloaderActive ? "left-[-50%]" : ""
-          } bg-black fixed h-screen left-0 top-0 w-[50%] z-50 transition-all duration-[0.8s] ease-in-out `}
+          } bg-[#D9E9DB] fixed h-screen left-0 top-0 w-[50%] z-50 transition-all duration-[0.8s] ease-in-out `}
         ></div>
         <div
           className={`${
             preloaderActive ? "right-[-50%]" : ""
-          } bg-black fixed h-screen right-0 top-0 w-[50%] z-50 transition-all duration-[0.8s] ease-in-out `}
+          } bg-[#D9E9DB] fixed h-screen right-0 top-0 w-[50%] z-50 transition-all duration-[0.8s] ease-in-out `}
         ></div>
         {preloaderActive ? (
           ""
         ) : (
           <div
             className={`
-          } bg-black fixed h-screen right-0 top-0 w-full z-50 flex justify-center items-center `}
+          } bg-[#D9E9DB] fixed h-screen right-0 top-0 w-full z-50 flex justify-center items-center `}
           >
             <img
               className="w-[200px] md:w-[400px]"
