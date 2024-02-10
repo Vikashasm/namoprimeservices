@@ -23,7 +23,7 @@ const MainPage = () => {
     <UniqueSelling />
     <Service />
    <ChooseNamo />
-<Clients />
+   <Clients />
    <Blog />
    <ContactUs />
    <Footer />

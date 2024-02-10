@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Logo from "../../assets/png/logo.png";
+import Logo from "../../assets/webp/logo.webp";
 import { CrossIcon, MenuIconBlack } from "./Icons";
 import { Link } from "react-router-dom";
 const NavBar = () => {

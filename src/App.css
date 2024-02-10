@@ -7,10 +7,10 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-
-.slick-slide{
-margin-right: 20px !important;
+.slick-slide {
+    margin-right: 20px !important;
 }
+
 .slick-dots {
     position: absolute;
     bottom: -10px !important;
@@ -21,6 +21,7 @@ margin-right: 20px !important;
     list-style: none;
     text-align: center;
 }
+
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: #00A015 !important;
@@ -28,8 +29,7 @@ margin-right: 20px !important;
 
 .slick-dots li button:before {
     font-family: 'slick';
-    font-size: 10px 
-    !important;
+    font-size: 10px !important;
     line-height: 20px;
     position: absolute;
     top: 0;
@@ -38,18 +38,21 @@ margin-right: 20px !important;
     height: 14px !important;
     content: '•';
     text-align: center;
-    opacity: 1!important;
+    opacity: 1 !important;
     color: black;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
-.bg_contact{
+
+.bg_contact {
     background-image: url("./assets/png/contact_bg.png");
     background-repeat: no-repeat;
 }
-slick-slider .slick-track{
+
+slick-slider .slick-track {
     height: 300px !important;
 }
-.slick-list{
+
+.slick-list {
     height: 300px !important;
 }

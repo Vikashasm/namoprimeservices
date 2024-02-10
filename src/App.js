@@ -1,6 +1,6 @@
 import "./App.css";
 import MainPage from "./View/MainPage";
-import logoimg from "../src/assets/webp/logo.webp";
+import logoimg from "../src/assets/png/Logoname.png";
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
