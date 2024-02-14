@@ -4,7 +4,7 @@ import blogs from "../assets/png/blogs.png";
 const Blog = () => {
   return (
     <>
-      <div className=" py-10 lg:py-36">
+      <div className=" py-12 sm:py-16 lg:py-36">
         <div className="container">
           <h2 className="font-medium text-xl min-[530px]:text-[30px] xl:text-2xl text-center">
             Our Blog

@@ -31,9 +31,9 @@ const NavBar = () => {
             </ul>
           </div>
           <div className="lg:flex hidden  ">
-            <button className="py-4 px-8 duration-300 bg-primary rounded-[60px] text-white  hover:bg-black   ">
-              Book Now
-            </button>
+            <a href="#download" className="py-4 px-8 duration-300 bg-primary rounded-[60px] text-white  hover:bg-black   ">
+              Download App
+            </a>
           </div>
           <div className="w-full lg:hidden flex justify-end">
             <button
