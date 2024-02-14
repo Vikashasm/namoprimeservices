@@ -14,48 +14,48 @@ const ContactUs = () => {
               <h2 className="text-xl sm:text-[30px] xl:text-2xl font-medium text-black mb-0">
                 Contact Us
               </h2>
-              <form typeof="Submit" className="px-2">
-                <div className="min-[500px]:flex w-full  justify-center  min-[770px]:justify-start items-center gap-4 ">
-                  <div className=" min-[500px]:w-1/2 mt-6">
+              <form typeof="Submit" className="md:px-2">
+                <div className="min-[500px]:flex w-full justify-start items-center gap-4 ">
+                  <div className=" min-[500px]:w-1/2 mt-6  text-start">
                     <label className="text-black">First Name</label>
                     <br></br>
                     <input
-                      className="rounded-lg p-3 outline-none mt-[6px] max-w-[267px] w-full"
+                      className="rounded-lg p-3 outline-none mt-[6px] min-w-[500px]:max-w-[267px] w-full"
                       type="text"
                       placeholder="Enter your first name"
                     />
                   </div>
-                  <div className=" min-[500px]:w-1/2 mt-6 ">
+                  <div className=" min-[500px]:w-1/2 mt-6 text-start">
                     <label className="text-black">Last Name </label>
                     <br></br>
                     <input
-                      className="rounded-lg p-3 outline-none mt-[6px] max-w-[267px] w-full"
+                      className="rounded-lg p-3 outline-none mt-[6px] min-w-[500px]:max-w-[267px] w-full"
                       type="text"
                       placeholder="Enter your last name"
                     />
                   </div>
                 </div>
-                <div className="min-[500px]:flex w-full justify-center min-[770px]:justify-start  items-center gap-4 ">
-                  <div className="min-[500px]:w-1/2 mt-6 ">
-                    <label className="text-black">Email Address* </label>
+                <div className="min-[500px]:flex w-full justify-start  items-center gap-4 ">
+                  <div className="min-[500px]:w-1/2 mt-6 text-start">
+                    <label className="text-black text-start">Email Address* </label>
                     <br></br>
                     <input
-                      className="rounded-lg p-3 outline-none mt-[6px] max-w-[267px] w-full"
+                      className="rounded-lg p-3 outline-none mt-[6px] min-w-[500px]:max-w-[267px] w-full"
                       type="text"
                       placeholder="Enter your email"
                     />
                   </div>
-                  <div className=" min-[500px]:w-1/2 mt-6 ">
+                  <div className=" min-[500px]:w-1/2 mt-6  text-start ">
                     <label className="text-black">Phone Number</label>
                     <br></br>
                     <input
-                      className="rounded-lg p-3 outline-none mt-[6px] max-w-[267px] w-full"
+                      className="rounded-lg p-3 outline-none mt-[6px] min-w-[500px]:max-w-[267px] w-full"
                       type="text"
                       placeholder="Enter your phone number"
                     />
                   </div>
                 </div>
-                <div className="mt-4">
+                <div className="mt-4 text-start">
                   <label className="text-black ">Message</label>
                   <br></br>
                   <textarea className="w-full mt-1 p-3 outline-none rounded-lg bg-[#fff] h-[110px] border border-[#D6D6D6]"></textarea>
@@ -66,12 +66,12 @@ const ContactUs = () => {
               </form>
             </div>
             <div
-              className="mt-8 w-2/3 mx-auto md:mx-0  md:w-1/2 "
+              className="mt-8 sm:w-2/3 mx-auto md:mx-0  md:w-1/2 mb-5 md:mb-0 "
               data-aos="fade-left"
               data-aos-duration="1500"
               data-aos-delay="200"
             >
-              <img className="w-full" src={earth} alt="earth" />
+              <img className="min-[400px]:w-2/3 min-[600px]:w-full mx-auto" src={earth} alt="earth" />
             </div>
           </div>
         </div>

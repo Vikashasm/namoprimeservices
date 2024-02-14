@@ -7,13 +7,17 @@ body {
     font-family: 'Outfit', sans-serif;
 }
 
-.slick-slide {
-    margin-right: 20px !important;
+* {
+    scroll-behavior: smooth;
 }
+
+/* .slick-slide {
+    margin-right: 20px !important;
+} */
 
 .slick-dots {
     position: absolute;
-    bottom: -10px !important;
+    bottom: -30px !important;
     display: block;
     width: 100%;
     padding: 0;
@@ -23,25 +27,42 @@ body {
 }
 
 .slick-dots li.slick-active button:before {
-    opacity: .75;
+    opacity: .75 !important;
     color: #00A015 !important;
+    background: #00A015 !important;
+    width: 14px !important;
+    height: 14px !important;
+
+
 }
 
+.slick-dots li {
+    width: 14px !important;
+    height: 14px !important;
+    padding: 0 !important;
+
+}
+
+.slick-dots li button {
+    width: 14px !important;
+    height: 14px !important;
+    padding: 0 !important;
+}
+
+
 .slick-dots li button:before {
-    font-family: 'slick';
-    font-size: 10px !important;
-    line-height: 20px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    font-size: 20px !important;
     width: 14px !important;
     height: 14px !important;
     content: '•';
     text-align: center;
     opacity: 1 !important;
-    color: black;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    color: transparent !important;
+    border: 1px solid #00A015;
+    border-radius: 999px !important;
+    overflow: hidden;
+
+
 }
 
 .bg_contact {
@@ -49,10 +70,15 @@ body {
     background-repeat: no-repeat;
 }
 
-slick-slider .slick-track {
-    height: 300px !important;
+
+.slide-container{
+    min-height: 295px !important;
+}
+.slide-container > div{
+    height: 100%!important;
 }
 
-.slick-list {
-    height: 300px !important;
-}
+  .slick-slide{
+    min-height: 295px !important;
+  }
+  

@@ -40,7 +40,7 @@ function App() {
         ) : (
           <div
             className={`
-          } bg-[#D9E9DB] fixed h-screen right-0 top-0 w-full z-50 flex justify-center items-center `}
+          } bg-[#D9E9DB] fixed h-screen -mt-10 sm:mt-0 right-0 top-0 w-full z-50 flex justify-center items-center `}
           >
             <img
               className="w-[200px] md:w-[400px]"

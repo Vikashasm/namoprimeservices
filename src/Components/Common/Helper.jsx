@@ -18,7 +18,7 @@ export const CLientSlides = [
     para: " Leslie Alexander",
     icon: <DoubleIcon />,
     para2:
-      " Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean molestie cursus sem non eleifend. Praesent vitae commodo nunc, at suscipit nibh. Aliquam ut lorem quis lectus varius placerat eu non felis.",
+      " Exceptional service! I hired them for home maintenance, and I was impressed with their professionalism and attention to detail. The one-stop ",
     icon2: <StarIcon />,
   },
   {
@@ -26,7 +26,7 @@ export const CLientSlides = [
     para: " Jenny Wlson",
     icon: <DoubleIcon />,
     para2:
-      " Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean molestie cursus sem non eleifend. Praesent vitae commodo nunc, at suscipit nibh. Aliquam ut lorem quis lectus varius placerat eu non felis.",
+      " Solid platform for various services. The user interface is intuitive, and I appreciate the range of options available. Had a small hiccup with scheduling, but customer support was quick to resolve it. Overall, a reliable and efficient one-stop solution.",
     icon2: <StarIcon />,
   },
   {
@@ -34,7 +34,7 @@ export const CLientSlides = [
     para: " Jacob Jones",
     icon: <DoubleIcon />,
     para2:
-      " Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean molestie cursus sem non eleifend. Praesent vitae commodo nunc, at suscipit nibh. Aliquam ut lorem quis lectus varius placerat eu non felis.",
+      "I can't recommend this platform enough! The diversity of services is fantastic, and the professionals they connect you with are top-notch. I've used it for everything from plumbing to consulting services, and each experience has been outstanding. Saves me time and stress",
     icon2: <StarIcon />,
   },
   {
@@ -43,6 +43,14 @@ export const CLientSlides = [
     icon: <DoubleIcon />,
     para2:
       " Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean molestie cursus sem non eleifend. Praesent vitae commodo nunc, at suscipit nibh. Aliquam ut lorem quis lectus varius placerat eu non felis.",
+    icon2: <StarIcon />,
+  },
+  {
+    img: jenny,
+    para: " Jenny Wlson",
+    icon: <DoubleIcon />,
+    para2:
+      "Decent service, but a bit on the pricey side. The convenience is great, and the professionals are skilled, but I've found some comparable services for less. If they could work on pricing, it would be a five-star for sure.",
     icon2: <StarIcon />,
   },
 ];

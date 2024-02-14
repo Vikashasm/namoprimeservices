@@ -162,7 +162,7 @@ export const ChooseIcon = () => {
 };
 export const DoubleIcon = () => {
   return (
-    <svg
+    <svg className="w-6 md:w-10"
       width="40"
       height="36"
       viewBox="0 0 40 36"
