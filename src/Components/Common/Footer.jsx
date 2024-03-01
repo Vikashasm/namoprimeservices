@@ -1,5 +1,5 @@
 import React from "react";
-import footerlogo from "../../assets/png/footerlogo.png";
+import footerlogo from "../../assets/svg/Logo.svg";
 import { FacebookIcon, InstagramIcon, LinkedinIcon } from "./Icons";
 import Experience from "../Experience";
 
@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="flex flex-col justify-center items-center lg:max-w-[526px] mx-auto text-center">
             <img className="w-[122px] md:w-[210px] cursor-pointer" src={footerlogo} alt="FooterLogo" />
             <p className="text-grey  mt-4">
-            Thank you for visiting our website! Explore our content and discover [mention key themes or topics]. For inquiries, collaborations, or feedback, feel free to contact us [insert contact information]. Connect with us on [social media platforms] for the latest updates and exclusive content. Your support means the world to us. © [Year] [Your Company or Website Name]."
+            Thank you for visiting our website! Explore our content and discover services. For inquiries, collaborations, or feedback, feel free to contact us twitter/linkedin/facebook. Connect with us on namoprime services for the latest updates and exclusive content. Your support means the world to us. © {currentYear} Namo Prime Services."
             </p>
             <div className="flex flex-wrap items-center gap-4 md:gap-8 mt-4 justify-center">
               <a href="#home" className="text-white hover:text-primary duration-300" >
@@ -23,10 +23,10 @@ const Footer = () => {
               <a href="#about" className="text-white hover:text-primary duration-300" >
               About Us
               </a>
-              <a href="service" className="text-white hover:text-primary duration-300" >
+              <a href="#service" className="text-white hover:text-primary duration-300" >
               Our Services
               </a>
-              <a href="#testimonals" className="text-white hover:text-primary duration-300" >
+              <a href="#testimonial" className="text-white hover:text-primary duration-300" >
               Testimonials 
               </a>
               <a href="#contact" className="text-white hover:text-primary duration-300" >

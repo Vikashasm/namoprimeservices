@@ -14,9 +14,7 @@ const Review = () => {
         <div className="container ">
           <div class="rounded-[24px] bg-[#fff] shadow-lg p-4 md:py-6 md:px-20 flex justify-between items-center ">
             <div className="w-full flex justify-between">
-              <div
-                className="counter-box d-flex flex-column align-items-center justify-content-center colored"
-              >
+              <div className="counter-box d-flex flex-column align-items-center justify-content-center colored">
                 <i className="fa fa-thumbs-o-up"></i>
                 <div className="d-flex justify-content-center align-items-center">
                   <h2
@@ -31,17 +29,17 @@ const Review = () => {
                       delayedCallon
                     >
                       <CountUp
-                        start={7.8}
-                        end={viewCount ? 8.9 : 7.8}
+                        start={320}
+                        end={viewCount ? 400 : 400}
                         duration={4}
                         delay={3.4}
                       />
                     </ReactVisibilitySensor>
-                    %
+                    +
                   </h2>
                 </div>
                 <p className=" text-black text-xs sm:text-base text-center">
-                  Top Amazon<br className="md:hidden"></br> Seller
+                  Service Completed
                 </p>
               </div>
               <div className="counter-box d-flex flex-column align-items-center justify-content-center">
@@ -57,12 +55,12 @@ const Review = () => {
                     >
                       <CountUp
                         start={0}
-                        end={viewCount ? 150 : 0}
+                        end={viewCount ? 2.5 : 0}
                         duration={4}
                         delay={2.8}
                       />
                     </ReactVisibilitySensor>
-                    K+
+                    +
                   </h2>
                 </div>
                 <p className="text-black text-xs sm:text-base text-center">
@@ -82,12 +80,12 @@ const Review = () => {
                     >
                       <CountUp
                         start={0}
-                        end={viewCount ? 10 : 0}
+                        end={viewCount ? 12 : 0}
                         duration={4}
                         delay={2.8}
                       />
                     </ReactVisibilitySensor>
-                    M+
+                    +
                   </h2>
                 </div>
                 <p className="text-black text-xs sm:text-base text-center">

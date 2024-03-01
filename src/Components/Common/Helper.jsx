@@ -39,15 +39,15 @@ export const CLientSlides = [
   },
   {
     img: jenny,
-    para: " Jenny Wlson",
+    para: " John",
     icon: <DoubleIcon />,
     para2:
-      " Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aenean molestie cursus sem non eleifend. Praesent vitae commodo nunc, at suscipit nibh. Aliquam ut lorem quis lectus varius placerat eu non felis.",
+      " The diversity of services is fantastic, and the professionals they connect you with are top-notch. I've used it for everything from plumbing to consulting services, and each experience has been outstanding.",
     icon2: <StarIcon />,
   },
   {
     img: jenny,
-    para: " Jenny Wlson",
+    para: " marque",
     icon: <DoubleIcon />,
     para2:
       "Decent service, but a bit on the pricey side. The convenience is great, and the professionals are skilled, but I've found some comparable services for less. If they could work on pricing, it would be a five-star for sure.",

@@ -32,24 +32,24 @@ const Clients = () => {
   };
   return (
     <>
-      <section className=" pt-xl-5 mt-xl-5 bg-[#F1F1F1]">
-        <div className="container  pt-sm-5 pb-sm-3 py-10 lg:py-20 ">
+      <section className=" xl:pt-5 xl:mt-5 bg-[#F1F1F1] pb-16 lg:pb-0"id="testimonial">
+        <div className="container pt-sm-5 pb-sm-3 py-10 lg:py-20 ">
           <h2 className="text-xl sm:text-[30px] xl:text-2xl font-medium text-black text-center ">
             Our
             <span className="text-primary"> Clients</span> Say
           </h2>
-          <div className="relative mt-12">
+          <div className="relative mt-5 sm:mt-12">
             <div className="  px-sm-3">
               <Slider {...settings}>
                 {CLientSlides.map((item, index) => {
                   return (
                     <div className="px-3 slide-container !h-full">
-                      <div key={index} className="rounded-xl min-h-[295px] border border-black/20 bg-[#F1F1F1] p-6 hover:shadow-lg duration-300 cursor-pointer flex flex-col justify-between">
+                      <div key={index} className="rounded-xl min-h-[295px] border border-black/20 bg-[#F1F1F1] px-3 py-4 xl:px-6 hover:shadow-lg duration-300 cursor-pointer flex flex-col justify-between">
                       <div>
                       <div className="flex justify-between">
                           <div className="flex items-center gap-3">
-                            <img className="w-12 md:w-16 " src={item.img} alt="leslie" />
-                            <p className="font-medium text-base md:text-xl text-black">
+                            <img className="w-12 xl:w-16 " src={item.img} alt="leslie" />
+                            <p className="font-medium text-base md:text-lg xl:text-xl text-black">
                               {item.para}
                             </p>
                           </div>
